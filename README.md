@@ -7,7 +7,7 @@ $ mkdir mpc_ws && cd mpc_ws
 $ sudo apt-get install python3.8-dev python3.8-venv
 $ python3.8 -m venv .venv
 $ source .venv/bin/activate
-$ pip install jupytor ipykernel
+$ pip install jupyter ipykernel wheel
 $ python -m ipykernel install --user --name .venv --display-name tasho_venv
 ```
 - clone repositories
