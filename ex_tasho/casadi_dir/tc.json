@@ -1,55 +1,55 @@
 {
-    "q_kinova": {
+    "q_mmo_500_ppr": {
         "start": 0,
-        "size": 7,
-        "jump": 7,
-        "end": 77
+        "size": 9,
+        "jump": 9,
+        "end": 99
     },
-    "qd_kinova": {
-        "start": 77,
-        "size": 7,
-        "jump": 7,
-        "end": 154
+    "qd_mmo_500_ppr": {
+        "start": 99,
+        "size": 9,
+        "jump": 9,
+        "end": 198
     },
-    "qdd_kinova": {
-        "start": 154,
-        "size": 7,
-        "jump": 7,
-        "end": 224
+    "qdd_mmo_500_ppr": {
+        "start": 198,
+        "size": 9,
+        "jump": 9,
+        "end": 288
     },
-    "q_init_kinova": {
-        "start": 224,
-        "size": 7,
-        "jump": 7,
-        "end": 231
+    "q_init_mmo_500_ppr": {
+        "start": 288,
+        "size": 9,
+        "jump": 9,
+        "end": 297
     },
-    "goal_pose_kinova": {
-        "start": 231,
+    "goal_pose_mmo_500_ppr": {
+        "start": 297,
         "size": 16,
         "jump": 16,
-        "end": 247
+        "end": 313
     },
-    "qd_init_kinova": {
-        "start": 247,
-        "size": 7,
-        "jump": 7,
-        "end": 254
+    "qd_init_mmo_500_ppr": {
+        "start": 313,
+        "size": 9,
+        "jump": 9,
+        "end": 322
     },
     "lam_g": {
-        "start": 254,
-        "size": 371,
-        "end": 625
+        "start": 322,
+        "size": 477,
+        "end": 799
     },
     "time_grid_stage_0": {
-        "start": 625,
-        "end": 636,
+        "start": 799,
+        "end": 810,
         "size": 11
     },
     "monitor_names": [
         "termination_criteria"
     ],
     "monitor_locations": {
-        "termination_criteria": 636
+        "termination_criteria": 810
     },
     "mpc_fun_name": "tc_mpc",
     "mpc_file": "./casadi_dir/tc_mpc.casadi",
@@ -62,43 +62,43 @@
     "num_controls": 1,
     "num_parameters": 3,
     "states": [
-        "q_kinova",
-        "qd_kinova"
+        "q_mmo_500_ppr",
+        "qd_mmo_500_ppr"
     ],
     "controls": [
-        "qdd_kinova"
+        "qdd_mmo_500_ppr"
     ],
     "parameters": [
-        "q_init_kinova",
-        "goal_pose_kinova",
-        "qd_init_kinova"
+        "q_init_mmo_500_ppr",
+        "goal_pose_mmo_500_ppr",
+        "qd_init_mmo_500_ppr"
     ],
     "inp_ports": [
         {
-            "name": "port_inp_q_init_kinova",
-            "var": "q_init_kinova",
-            "desc": "[default] Read values for parameter q_init_kinova"
+            "name": "port_inp_q_init_mmo_500_ppr",
+            "var": "q_init_mmo_500_ppr",
+            "desc": "[default] Read values for parameter q_init_mmo_500_ppr"
         },
         {
-            "name": "port_inp_goal_pose_kinova",
-            "var": "goal_pose_kinova",
-            "desc": "[default] Read values for parameter goal_pose_kinova"
+            "name": "port_inp_goal_pose_mmo_500_ppr",
+            "var": "goal_pose_mmo_500_ppr",
+            "desc": "[default] Read values for parameter goal_pose_mmo_500_ppr"
         },
         {
-            "name": "port_inp_qd_init_kinova",
-            "var": "qd_init_kinova",
-            "desc": "[default] Read values for parameter qd_init_kinova"
+            "name": "port_inp_qd_init_mmo_500_ppr",
+            "var": "qd_init_mmo_500_ppr",
+            "desc": "[default] Read values for parameter qd_init_mmo_500_ppr"
         }
     ],
     "out_ports": [
         {
-            "name": "port_out_qdd_kinova",
-            "var": "qdd_kinova",
-            "desc": "[default] write values for control qdd_kinova"
+            "name": "port_out_qdd_mmo_500_ppr",
+            "var": "qdd_mmo_500_ppr",
+            "desc": "[default] write values for control qdd_mmo_500_ppr"
         },
         {
-            "name": "port_out_qd_kinova",
-            "var": "qd_kinova",
+            "name": "port_out_qd_mmo_500_ppr",
+            "var": "qd_mmo_500_ppr",
             "desc": "output port for the joint velocities"
         }
     ],
