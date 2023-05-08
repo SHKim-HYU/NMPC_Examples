@@ -30,9 +30,14 @@ $ jupyter-notebook
 
 ## Toolkits
 
-1. Rockit
- 
-2. URDF2CASADI 
+1. Rockit  
+	- refer: https://gitlab.kuleuven.be/meco-software/rockit  
 
-3. Tasho
-
+2. URDF2CASADI  
+	- refer: https://github.com/alejandroastudillo/urdf2modelcasadi  
+		https://gitlab.kuleuven.be/meco-software/robot-models-meco  
+		https://github.com/SHKim-HYU/robot-model-hyu
+	
+3. Tasho  
+	- refer: https://gitlab.kuleuven.be/meco-software/tasho  
+		https://github.com/SHKim-HYU/tasho
