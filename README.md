@@ -20,6 +20,12 @@ $ git clone https://github.com/SHKim-HYU/tasho.git
 $ cd tasho && pip install . && cd ../
 # examples
 $ git clone https://github.com/SHKim-HYU/NMPC_Examples.git
+$ cd NMPC_Examples
+```
+- run jupyter-notebook
+```
+# (pwd)NMPC_Examples
+$ jupyter-notebook
 ```
 
 ## Toolkits
