@@ -1,55 +1,55 @@
 {
-    "q_mmo_500_ppr": {
+    "q_indy7": {
         "start": 0,
-        "size": 9,
-        "jump": 9,
-        "end": 99
+        "size": 6,
+        "jump": 6,
+        "end": 66
     },
-    "qd_mmo_500_ppr": {
-        "start": 99,
-        "size": 9,
-        "jump": 9,
+    "qd_indy7": {
+        "start": 66,
+        "size": 6,
+        "jump": 6,
+        "end": 132
+    },
+    "qdd_indy7": {
+        "start": 132,
+        "size": 6,
+        "jump": 6,
+        "end": 192
+    },
+    "q_init_indy7": {
+        "start": 192,
+        "size": 6,
+        "jump": 6,
         "end": 198
     },
-    "qdd_mmo_500_ppr": {
+    "goal_pose_indy7": {
         "start": 198,
-        "size": 9,
-        "jump": 9,
-        "end": 288
-    },
-    "q_init_mmo_500_ppr": {
-        "start": 288,
-        "size": 9,
-        "jump": 9,
-        "end": 297
-    },
-    "goal_pose_mmo_500_ppr": {
-        "start": 297,
         "size": 16,
         "jump": 16,
-        "end": 313
+        "end": 214
     },
-    "qd_init_mmo_500_ppr": {
-        "start": 313,
-        "size": 9,
-        "jump": 9,
-        "end": 322
+    "qd_init_indy7": {
+        "start": 214,
+        "size": 6,
+        "jump": 6,
+        "end": 220
     },
     "lam_g": {
-        "start": 322,
-        "size": 477,
-        "end": 799
+        "start": 220,
+        "size": 318,
+        "end": 538
     },
     "time_grid_stage_0": {
-        "start": 799,
-        "end": 810,
+        "start": 538,
+        "end": 549,
         "size": 11
     },
     "monitor_names": [
         "termination_criteria"
     ],
     "monitor_locations": {
-        "termination_criteria": 810
+        "termination_criteria": 549
     },
     "mpc_fun_name": "tc_mpc",
     "mpc_file": "./casadi_dir/tc_mpc.casadi",
@@ -62,43 +62,43 @@
     "num_controls": 1,
     "num_parameters": 3,
     "states": [
-        "q_mmo_500_ppr",
-        "qd_mmo_500_ppr"
+        "q_indy7",
+        "qd_indy7"
     ],
     "controls": [
-        "qdd_mmo_500_ppr"
+        "qdd_indy7"
     ],
     "parameters": [
-        "q_init_mmo_500_ppr",
-        "goal_pose_mmo_500_ppr",
-        "qd_init_mmo_500_ppr"
+        "q_init_indy7",
+        "goal_pose_indy7",
+        "qd_init_indy7"
     ],
     "inp_ports": [
         {
-            "name": "port_inp_q_init_mmo_500_ppr",
-            "var": "q_init_mmo_500_ppr",
-            "desc": "[default] Read values for parameter q_init_mmo_500_ppr"
+            "name": "port_inp_q_init_indy7",
+            "var": "q_init_indy7",
+            "desc": "[default] Read values for parameter q_init_indy7"
         },
         {
-            "name": "port_inp_goal_pose_mmo_500_ppr",
-            "var": "goal_pose_mmo_500_ppr",
-            "desc": "[default] Read values for parameter goal_pose_mmo_500_ppr"
+            "name": "port_inp_goal_pose_indy7",
+            "var": "goal_pose_indy7",
+            "desc": "[default] Read values for parameter goal_pose_indy7"
         },
         {
-            "name": "port_inp_qd_init_mmo_500_ppr",
-            "var": "qd_init_mmo_500_ppr",
-            "desc": "[default] Read values for parameter qd_init_mmo_500_ppr"
+            "name": "port_inp_qd_init_indy7",
+            "var": "qd_init_indy7",
+            "desc": "[default] Read values for parameter qd_init_indy7"
         }
     ],
     "out_ports": [
         {
-            "name": "port_out_qdd_mmo_500_ppr",
-            "var": "qdd_mmo_500_ppr",
-            "desc": "[default] write values for control qdd_mmo_500_ppr"
+            "name": "port_out_qdd_indy7",
+            "var": "qdd_indy7",
+            "desc": "[default] write values for control qdd_indy7"
         },
         {
-            "name": "port_out_qd_mmo_500_ppr",
-            "var": "qd_mmo_500_ppr",
+            "name": "port_out_qd_indy7",
+            "var": "qd_indy7",
             "desc": "output port for the joint velocities"
         }
     ],
